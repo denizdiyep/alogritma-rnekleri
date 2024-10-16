@@ -17,7 +17,7 @@ class BankAccount:
 my_account = BankAccount("12345678", 5000)
 
 # Kullanıcıdan çekmek istediği tutarı al
-withdraw_amount = float(input("Çekmek istediğiniz tutarı girin:100 "))
+withdraw_amount = float(input("Çekmek istediğiniz tutarı girin:1100tl "))
 
 # Para çekme işlemini yap
 result = my_account.withdraw(withdraw_amount)
